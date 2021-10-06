@@ -21,3 +21,9 @@ x = int( input("Enter a number: "))
 for mult in range(1,13):
     total = x*mult
     print(total, end=' ')
+
+begin = 1
+end = 13
+while begin < end:
+    #code
+    begin = begin + 1
