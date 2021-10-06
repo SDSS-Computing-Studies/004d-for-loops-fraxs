@@ -17,3 +17,7 @@ example:
 Enter number:4
 4 8 12 16 20 24 28 32 36 40 44 48
 """
+x = int( input("Enter a number: "))
+for mult in range(1,13):
+    total = x*mult
+    print(total, end=' ')
