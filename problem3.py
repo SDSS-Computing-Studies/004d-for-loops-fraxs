@@ -23,5 +23,14 @@ if x > 10:
     exit()
 else:
     pass
-for var in range(1, x+1):
-    print(var, end='')
+start = 1
+number = "0"
+end = 0
+for i in range(1, x+1):
+    number = str(number)            # number '0'
+    number = number + "1"           # number '01'                  # start 1
+    number = int(number)            
+    result = start * number            
+    end = end + result    
+print(f"the sum of the series is {end}")
+
