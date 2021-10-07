@@ -17,3 +17,11 @@ example:
 enter a number: 4
 the sum of the series is 1234
 """
+x = int( input("Enter a number: "))
+if x > 10:
+    print("no")
+    exit()
+else:
+    pass
+for var in range(1, x+1):
+    print(var, end='')
